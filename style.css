@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    background:;
     font-family: 'Kodchasan', sans-serif;
     background-image:url(imgin1.jpg);
     background-size:100% 170%;
     background-repeat:no-repeat;
     background-attachment:fixed;
     box-sizing: border-box;
+    z-index:0;
 }
 .BarraS{
     width: 100%;
