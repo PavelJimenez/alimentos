@@ -3,7 +3,7 @@
     padding: 0;
     background:;
     font-family: 'Kodchasan', sans-serif;
-    background-image:url(index_2.jpg);
+    background-image:url(imgin1.jpg);
     background-size:100% 100%;
     background-repeat:no-repeat;
     background-attachment:fixed;
@@ -66,7 +66,6 @@ header{
     text-decoration:none;
     font-size:15px;
     background:#FF9933;
-    
 }
 .BarraS #btn1{
     position:fixed;
