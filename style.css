@@ -1,14 +1,14 @@
-/*body*/*{
+*{
     margin: 0;
     padding: 0;
     background:;
+    font-family: 'Kodchasan', sans-serif;
     background-image:url(index_2.jpg);
     background-size:100% 100%;
     background-repeat:no-repeat;
     background-attachment:fixed;
     box-sizing: border-box;
-    font-family:sans-serif;
-}/*body fin*/
+}
 .BarraS{
     width: 100%;
     margin: auto;
@@ -66,7 +66,7 @@ header{
     text-decoration:none;
     font-size:15px;
     background:#FF9933;
-    -webkit-text-stroke: .1px black;
+    
 }
 .BarraS #btn1{
     position:fixed;
@@ -97,7 +97,6 @@ header{
     text-align:justify;
     color:white;
     font-size:20px;
-    font-family:sans-serif;
     padding-left:30px;
     padding-right:30px;
     padding-bottom:30px;
@@ -137,7 +136,6 @@ p{
     font-size:20px;
     text-align:center;
     border-radius:10px;
-    font-family:sans-serif;
 }
 .bienvenida p2 {
     text-align: center;
