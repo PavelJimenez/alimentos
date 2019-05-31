@@ -4,7 +4,7 @@
     background:;
     font-family: 'Kodchasan', sans-serif;
     background-image:url(imgin1.jpg);
-    background-size:100% 150%;
+    background-size:100% 170%;
     background-repeat:no-repeat;
     background-attachment:fixed;
     box-sizing: border-box;
@@ -18,7 +18,7 @@
     display:none;
 }
 #check:checked ~ .menu{
-    width:200px;
+    width:160px;
 }
 header{
     width: 100%;
@@ -27,9 +27,10 @@ header{
     left: 0;
     top: 0;
     background: #FF9933;
+    z-index:3;
 }
 .menu{
-    position: fixed;
+    position: absolute;
     top: 60px;
     left: 0px;
     width: 0px;
@@ -38,6 +39,7 @@ header{
     transition: all 500ms cubic-bezier(1,0,0,1);
     transition-timing-function: cubic-bezier(1,0,0,1);
     overflow: hidden;
+    z-index:2;
 }
 .menu li{
     list-style: none;
@@ -146,10 +148,13 @@ p{
     width:70%;
     height:auto;
     margin:auto;
+    margin-bottom:50px;
    color:black;
     font-size:20px;
     text-align:center;
     border-radius:10px;
+    z-index:1;
+    position:relative;
 }
 .divmenus li{
     list-style: none;
