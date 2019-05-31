@@ -89,6 +89,7 @@ header{
     font-size: 20px;
     text-align: center;
     color: white;
+    z-index:4;
 }
 .txt{
     background:white;
