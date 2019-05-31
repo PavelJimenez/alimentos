@@ -51,7 +51,7 @@ header{
 }
 .menu ul li:hover ul {
     display:block;
-    margin-top:16px;
+    margin-top:10px;
 }
 .menu ul ul{
     display:none;
@@ -118,8 +118,8 @@ header{
     margin:auto;
     align-self:center;
     border-radius:10px;
-    width:440px;
-    height:400px;
+    width:99%;
+    height:99%;
 }
 p{
     color:black;
